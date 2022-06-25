@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Trabalho</title>
+    </head>
+    <body>
+        <div id="reload">
+            <button id="load">(Re)carregar</button>
+        </div>
+        <div class="cor" style="margin-block: 20px;">
+            <button id="vermelho">Canal Vermelho</button>
+            <button id="verde">Canal Verde</button>
+            <button id="azul">Canal Azul</button>
+            <button id="cinzas">Tons de cinza</button>
+            <button id="binario">Preto e Branco</button>
+            <button id="media">Filtro da Media</button>
+            <button id="mediana">Filtro da Mediana</button>
+            <button id="gausiano">Filtro Gaussiano</button>
+        </div>
+        <div id="cor">
+            <button id="brilho">Aumentar Brilho</button>
+            <button id="brilhoMenos">Diminuir Brilho</button>
+            <button id="contraste">Aumentar Contraste</button>
+            <button id="contrasteMenos">Diminuir Contraste</button>
+        </div>
+        <div id="giros" style="margin-block: 20px;">
+            <button id="noventaGraus">Girar 90 graus</button>
+            <button id="horizontal">Girar horizontalmente</button>
+            <button id="vertical">Girar verticalmente</button>
+        </div>
+        <div>
+            <img src="peixes.jpg" alt="peixes no fundo do mar" id="peixes" />
+        </div>
+        <div>
+            <canvas id="canvasPeixes"></canvas>
+        </div>
+
+        <script src="codigo.js"></script>
+    </body>
+</html>
